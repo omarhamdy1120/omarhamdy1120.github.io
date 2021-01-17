@@ -1,0 +1,201 @@
+body{
+    background-image: url(18322779.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1367px 670px;
+    
+}
+#z{
+    font-weight: bolder;
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+#z li{
+    display: inline-block;
+    color:rgb(214, 210, 210);
+    padding: 14px 16px;
+}
+#z li:hover{
+    background-color:#1a0a0acc;
+    border-radius: 8px;
+}
+::selection{
+    background-color: crimson;
+    color: darkcyan;
+}
+h3{
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(214, 210, 210);
+    font-size: 25px;
+}
+h3::first-letter{
+    font-size: 50px;
+    color:rgb(214, 210, 210);
+}
+h4{
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(214, 210, 210);
+    font-size: 17px;
+}
+h4::first-letter{
+    font-size: 30px;
+    color:rgb(214, 210, 210);
+}
+h1::first-letter{
+    font-size: 50px;
+    color:#0e0e14;
+}
+input[type=text], select,[type=password]{
+    width: 26%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color:#0e0e14;
+    color: aliceblue;
+}
+input:hover{
+    background-color: rgb(211, 20, 20);
+    box-shadow: 0 0 40px rgb(255, 0, 0);
+}
+select:hover{
+    background-color: rgb(211, 20, 20);
+    box-shadow: 0 0 40px rgb(255, 0, 0);
+}
+input[type=date]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color:#0e0e14;
+    color: aliceblue;
+}
+
+input[type=submit]{
+    width: 25%;
+    background-color:#0e0e14;
+    color: white;
+    cursor: pointer;
+    padding: 14px 40px;
+    margin: 18px 180px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+input[type=submit]:hover{
+    background-color: rgb(211, 20, 20);
+    box-shadow: 0 0 40px rgb(255, 0, 0);
+}
+div.form{
+    border-radius: 5px;
+    background-color: #1a0a0acc;
+    padding: 30px; 
+    width: 40%;
+    margin: 20px 375px;
+    box-shadow: 0 0 40px #f70303;
+    color: aliceblue;
+}
+/***** Media Quries *****/
+@media only screen and (max-width: 1200px) and (min-width:601px) {
+  
+    label{
+        font-size:12px;
+        }
+        input[type=submit]{
+        padding:5px;
+        }
+        input[type=text]{
+          padding: 8px; 
+        }
+        div.form{
+          border-radius: 5px;
+          padding: 0px; 
+          width: 70%;
+          margin: 0px 180px;
+      }
+      body{
+        background: url(18322779.jpg) no-repeat 80% 80%;
+        background-size:cover;
+        background-attachment: fixed;
+       }   
+  }
+  
+  
+  @media only screen and (max-width: 600px) and (min-width:351px) {
+    
+
+  label{
+  font-size:12px;
+  }
+  input[type=submit]{
+  padding:5px;
+  }
+  input[type=text]{
+    padding: 8px; 
+  }
+  div.form{
+    border-radius: 5px;
+    padding: 0px; 
+    width: 90%;
+    margin: 0px 22px;
+    }
+
+   body{
+    background: url(18322779.jpg) no-repeat 50% 50%;
+    background-size:cover;
+    background-attachment: fixed;
+   }   
+  }
+  
+  @media only screen and (max-width: 350px)  {
+    label{
+  font-size:12px;
+  }
+  input[type=submit]{
+  padding:5px;
+  }
+  input[type=text]{
+    padding: 8px; 
+  }
+  div.form{
+    border-radius: 5px;
+    padding: 0px; 
+    width: 50%;
+    margin: 0px 22px;
+}
+body{
+    background: url(18322779.jpg) no-repeat 100%;
+    background-size: auto;
+   }   
+    
+  }
+  @media only screen and (max-width: 480px) {
+      body{
+        background: url(18322779.jpg) no-repeat 5% 0%;
+        background-attachment: fixed;
+        background-size: 500px 900px;
+
+
+     }
+    label{
+        font-size:12px;
+    }
+    input[type=submit]{
+        padding:5px;
+    }
+    input[type=text]{
+        padding: 8px; 
+    }
+    div.form{
+        border-radius: 5px;
+        padding: 0px; 
+        width: 100%;
+        margin: 0px 15px;
+    }
+  }

@@ -1,0 +1,279 @@
+body{
+	background-color:#45494e ;
+	font-family: "Crimson Text";
+}
+
+.main{
+	background: #4d5158;
+}
+
+.home-description{
+	font-style: italic;
+	font-weight: 600;
+	font-family: "Crimson";
+	font-size: 19px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    line-height: 29px;
+
+}
+.social a {
+	height: 40px;
+	width: 40px;
+	border: 1px solid #111;
+	line-height: 40px;
+	margin: -6px 10px;
+	color: #111;
+	font-size: 20px;
+	padding-bottom: 20px;
+	transition: all 0.4s ease-in-out;
+}
+
+.social a:hover{
+	color: #fff;
+	border-color: #bb9e7d;
+	background-color: #bb9e7d;
+	text-decoration: none;
+}
+.img-page{
+	width: 100%;
+	padding-top: 100px;
+}
+.btn-page{
+
+	color: #111;
+	font-style: italic;
+	border: 1px solid #111;
+	border-radius: 0px !important;
+	transition: all 0.4s ease-in-out;
+	margin-bottom: 20px;
+	font-family: "Crimson";
+	font-size: 13px;
+	}
+
+.btn-page:hover{
+	color: #fff;
+	background-color: #bb9e7d;
+	border-color: #bb9e7d;
+	
+}
+
+p{
+	color: #dfcdc3;
+	font-size: 16px;
+	
+}
+
+.page-title{
+	text-transform: uppercase;
+	font-family: 'Josefin Sans';
+}
+
+/*Home Style*/
+.logo{
+	padding-top: 100px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.logo h4{
+	font-family: 'Josefin Sans';
+	color: #719192;
+}
+
+.back{
+    width: 170px;    
+    font-family: "Crimson";
+    font-size: 17px;
+    font-style: italic;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    clear: both;
+    margin-top: 70px;	 
+}
+
+.back i{
+	margin-left: -40px;
+    margin-right: 17px;
+    font-size: 20px;
+}
+
+.btn{
+	padding: 10px 60px;
+	height: 45px;
+	font-size: 16px;
+}
+
+.btn-group-vertical{
+    font-family: "Josefin Sans";    
+}
+
+.about{
+	font-family: "Josefin Sans";
+	/*margin-top: 35px;*/
+	/*margin-bottom: 25px;*/
+	font-size: 32px;
+	
+}
+
+.page-title{
+	
+	font-size: 32px;
+	font-family: "Josefin Sans";
+	color: #719192;
+}
+
+.page-title{
+	position: relative;
+	display: inline-block;
+}
+
+.page-title:after,.page-title:before{
+	content: '';
+	position: absolute;
+	height: 1px;
+	background-color: #719192;
+	left: 0;
+	margin: 2px;
+}
+
+.social{
+	padding-bottom: 15px;
+}
+.subtitle{
+	font-style: italic;
+	font-weight: 600;
+	font-size: 20px;
+	color: #719192;
+	line-height: 28px;
+	font-family: "Crimson";
+	margin-top: 15px;
+	margin-bottom: 20px;
+	padding-right: 40px;
+
+	}
+.page-title:after{
+	width: 75%;
+	top: -9px;
+
+}
+
+.page-title:before{
+	width: 40%;
+	bottom: -7px;
+}
+
+#watermark .marker{
+	position: absolute;
+	font-size: 60px;
+	opacity: 0.1;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+	left: 0;
+	top: -5px;
+	color: #dfcdc3;
+}
+
+#watermark{
+	position: relative;
+}
+
+.custom_btn{
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
+.show{
+	display: block;
+}
+.icon{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    transition: 0.7s ease;
+	-o-transition: 0.7s ease;
+	-webkit-transition: 0.7s ease;
+	margin-left: 220px;
+}
+.icon:hover{
+    color: rgb(48, 51, 53);
+    
+}
+/*--------------------------Work-----------------------------*/
+.image-list-small {
+    font-family: Arial, Helvetica, sans-serif;
+
+	max-width: 600px;
+	padding-top: 150px;
+
+}
+  
+.image-list-small li {
+    display: inline-block;
+    width: 250px;
+}
+  
+  
+  /* Photo */
+  
+.image-list-small li > a {
+    display: block;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 167px;
+    margin: 0;
+    padding: 0;
+    border: 1px dotted #000000;
+    opacity: 50%;
+    transition: 0.8s ease;
+	-o-transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+}
+.image-list-small li > a:hover{
+    opacity: 100%;
+}
+/* ---------------------Contact-------------*/
+section{
+	font-size: 17px;
+	text-align: center;
+	color: #dfcdc3;
+}
+@media (min-width: 778px)
+{
+		.main{
+			height: 100vh;
+			overflow: hidden;
+		}
+
+		.img-page{
+			/*margin: 0 -15px;*/
+			
+		}
+
+		.btn-group-vertical{
+    		padding: 20px 87.5px;
+    	}
+
+    	.info{
+			font-family: "Crimson";
+			line-height: 28px;
+		    font-size: 16px;
+		    padding-top: 15px;
+		    padding-right: 50px;
+		}
+		
+		.home-description{
+			padding-right: 90px;
+			padding-left: 90px;
+			
+		}
+		
+}
+@media (max-width: 1024px) and (orientation: landscape){
+	.main{
+		height: auto;
+	}
+	
+
+}
